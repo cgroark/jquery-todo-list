@@ -1,0 +1,28 @@
+h1 {
+	color: red;
+	font-size: 100px;
+}
+
+#inputField {
+	width: 400px;
+}
+
+#inputButton {
+	width: 400px;
+}
+
+#listToDo{
+	color: blue;
+	font-size: 24px;
+
+}
+
+#checkToDo{
+	display: none;
+}
+#listToDone{
+	color: orange;
+	font-size: 24px;
+
+
+}
