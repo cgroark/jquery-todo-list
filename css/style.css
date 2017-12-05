@@ -1,28 +1,44 @@
+body {
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	background-color: #999999;
+
+}
 h1 {
-	color: red;
-	font-size: 100px;
+	background-color: rgb(232,243,157);
+	color: black;
+	margin-top: 20px;
+	font-size: 64px;
 }
 
 #inputField {
-	width: 400px;
+	width: 250px;
+	height: 35px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+
+
 }
 
 #inputButton {
-	width: 400px;
+	width: 150px;
+	height: 25px;
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+.list{
+	background-color: pink;
+
 }
 
 #listToDo{
-	color: blue;
+	color: grey;
 	font-size: 24px;
-
+	margin-right: 40px;
+	font-size: 28px;
 }
-
-#checkToDo{
-	display: none;
-}
-#listToDone{
-	color: orange;
-	font-size: 24px;
-
-
-}
+ #removeText{
+ 	font-size: 14px;
+ }

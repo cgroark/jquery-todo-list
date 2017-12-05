@@ -3,21 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-
-  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <title>To Do List></title>
 </head>
 <body>
-	<h1>Get Your Life Together</h1>
+	<h1>List of To-Dos</h1>
  	<form>
-  		<input type="text" id="inputField" placeholder="add an item"></input>
+  		<input type="text" id="inputField" placeholder="input your to-do here"></input>
   	</form>
   	<button id="inputButton">add it to the list</button>
-	<ul id="listToDo">things you're behind on</ul>
-  	<ul id="listToDone">accomplishments</ul>
-<!--    		<li>text here</li>
- -->  <script type="text/javascript" src="js/todo.js"></script>
+  	<div class = "list">
+		<ul id="listToDo">things left to do:</ul>
+	</div>	
+	<div id="removeText">
+		<h2>just tap the to-do to make it go away</h2>
+	</div>
+
+ <script type="text/javascript" src="js/todo.js"></script>
 
 </body>
 </html>
